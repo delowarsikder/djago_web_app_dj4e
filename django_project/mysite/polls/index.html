@@ -1,0 +1,9 @@
+<!Docktype html>
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+    </body>
+</html>
